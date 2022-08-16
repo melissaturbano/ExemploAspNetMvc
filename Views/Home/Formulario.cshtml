@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Formulário";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastro de Usuário</h1>
+    <p>Preencha o formulário abaixo.</p>
+
+<!-- get manda por url, se usa em filtros-->
+<!-- post manda pelo corpo da requisição, ideial para login-->
+    <form action="TesteFormData" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="Email" id="email">
+        <input type="submit" value="enviar">
+    </form>
+
+
+
+
+</div>
