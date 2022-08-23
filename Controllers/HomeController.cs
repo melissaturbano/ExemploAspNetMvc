@@ -8,6 +8,7 @@ public class UserRequest
 {
     public string Nome { get; set; }
     public string Email { get; set; }
+    public string Senha { get; set; }
 }
 
 public class HomeController : Controller 
@@ -41,9 +42,9 @@ public class HomeController : Controller
 
 
     // fromform pega as infos apenas de formularios
-    public string TesteFormData([FromForm] UserRequest userRequest, [FromHeader] string valor) 
+    public string TesteFormData([FromForm] UserRequest userRequest/*, [FromHeader] string valor*/) 
     {
-        return $"Nome: {userRequest.Nome}, Email: {userRequest.Email}, Valor: {valor}";
+        return $"Nome: {userRequest.Nome}, Email: {userRequest.Email}, Senha: {userRequest.Senha}" /*Valor: {valor}*/;
     }
 
     public IActionResult Formulario()

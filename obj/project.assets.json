@@ -8,30 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\IFSP\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jrald\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IFSP\\Desktop\\sp3045013\\ExemploAspNetMvc\\ExemploAspNetMvc.csproj",
+      "projectUniqueName": "C:\\Users\\jrald\\Desktop\\AspNetMvc\\ExemploAspNetMvc\\ExemploAspNetMvc.csproj",
       "projectName": "ExemploAspNetMvc",
-      "projectPath": "C:\\Users\\IFSP\\Desktop\\sp3045013\\ExemploAspNetMvc\\ExemploAspNetMvc.csproj",
-      "packagesPath": "C:\\Users\\IFSP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IFSP\\Desktop\\sp3045013\\ExemploAspNetMvc\\obj\\",
+      "projectPath": "C:\\Users\\jrald\\Desktop\\AspNetMvc\\ExemploAspNetMvc\\ExemploAspNetMvc.csproj",
+      "packagesPath": "C:\\Users\\jrald\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jrald\\Desktop\\AspNetMvc\\ExemploAspNetMvc\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\IFSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jrald\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
